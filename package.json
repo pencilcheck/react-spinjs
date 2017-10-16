@@ -2,10 +2,10 @@
   "name": "react-spinjs",
   "version": "3.0.0",
   "description": "A wrapper around spin.js, instantly useable",
-  "main": "lib",
+  "main": "index.js",
   "scripts": {
     "prepublish": "npm start",
-    "start": "rm -rf lib && babel src --out-dir lib",
+    "start": "rm -rf lib && babel src --out-dir lib && mv lib/index.js index.js && rm -r lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
