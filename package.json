@@ -25,6 +25,9 @@
     "react": "16.0.0",
     "prop-types": "15.6.0"
   },
+  "directories":{
+    "lib": "lib"
+  },
   "author": "Qiming Weng",
   "license": "MIT",
   "devDependencies": {
